@@ -19,6 +19,7 @@
 
     .contact-form .form-input,
     .form-text-area {
+        color:white;
         background-color: rgba(0, 0, 0, 0.3);
         height: 50px;
         padding-left: 16px;
