@@ -5,12 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProjectWebServer.Controllers
 {
-    public class ContactUs : Controller
+    public class ContactUsController : Controller
     {
         // DBContext stuff
         private ContactUsDbContext _context { get; set; }
 
-        public ContactUs(ContactUsDbContext ctx)
+        public ContactUsController(ContactUsDbContext ctx)
         {
             _context = ctx;
         }
