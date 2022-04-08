@@ -13,11 +13,14 @@
     {
       "library": "popper.js@1.16.1",
       "destination": "wwwroot/lib/popper.js/"
+    },
+    {
+      "library": "font-awesome@6.1.1",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/lib/toastr.js/"
     }
-  ,
-{
-  "library": "font-awesome@6.1.1",
-  "destination": "wwwroot/lib/font-awesome/"
-}
-]
+  ]
 }
