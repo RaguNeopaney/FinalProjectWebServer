@@ -14,17 +14,6 @@ body {
     font-weight: 400;
 }
 
-h1 {
-    margin-bottom: 0.5em;
-    font-size: 3.6rem;
-}
-
-p {
-    margin-bottom: 0.5em;
-    font-size: 1.6rem;
-    line-height: 1.6;
-}
-
 .button {
     display: inline-block;
     margin-top: 20px;

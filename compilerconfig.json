@@ -6,5 +6,9 @@
   {
     "outputFile": "wwwroot/css/Navbar.css",
     "inputFile": "wwwroot/css/Navbar.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/RaguResume.css",
+    "inputFile": "wwwroot/css/RaguResume.scss"
   }
 ]

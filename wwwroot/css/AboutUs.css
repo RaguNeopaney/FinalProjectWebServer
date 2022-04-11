@@ -16,8 +16,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 60vh;
     position: relative;
+    margin-top: 5vh;
 }
 
 .hero-content {
@@ -42,7 +43,7 @@ strong {
     width: 60vw;
     margin: 0 auto;
     position: relative;
-    padding: 60px 20px;
+    padding: 27px 20px;
     background: transparent;
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #61c2ff), color-stop(100%, #cd4444));
     background: -webkit-linear-gradient(-45deg, #61c2ff 0%, #cd4444 100%);

@@ -23,5 +23,10 @@ namespace FinalProjectWebServer.Controllers
         {
             return View();
         }
+
+        public IActionResult Ragu()
+        {
+            return View();
+        }
     }
 }
