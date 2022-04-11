@@ -2,6 +2,10 @@
 
 @model ContactUsViewModel
 
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
 <div>
     <div class="contact-form-wrapper d-flex justify-content-center">
         <form method="post" asp-controller="AboutUs" asp-action="ContactUs" onsubmit="return checkform(this)" class="contact-form" id="myForm">
