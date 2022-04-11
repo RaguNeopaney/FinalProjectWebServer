@@ -2,6 +2,8 @@
 using FinalProjectWebServer.Models.DomainModels;
 using FinalProjectWebServer.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Linq;
 
 namespace FinalProjectWebServer.Controllers
 {
@@ -36,6 +38,14 @@ namespace FinalProjectWebServer.Controllers
             }
 
             return RedirectToAction("ContactUsHome", "ContactUs");
+        }
+
+        [HttpPost]
+        public string GetAllContactUS()
+        {
+            var contactUs = _context.ContactUs.ToList();
+            var result = JsonConvert.SerializeObject(new { data = contactUs });
+            return result;
         }
     }
 }

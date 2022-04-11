@@ -15,8 +15,9 @@
         data: data,
         success: function (response) {
             if (!response.success === true && isValid) {
-                toastr.success('Sign Up Successful');
+                toastr.success('Message Sent');
                 $('#myForm')[0].reset();
+                window.location.reload();
             }
         }
     })

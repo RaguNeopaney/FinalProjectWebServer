@@ -1,7 +1,7 @@
 ﻿@using FinalProjectWebServer.Models.ViewModel;
 
 @model ContactUsViewModel
-
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
 @{
     ViewData["Title"] = "Contact Us";
 }
@@ -28,3 +28,40 @@
         </form>
     </div>
 </div>
+<div>
+    <table id="ContactUsTable" >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section scripts {
+           <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+        <script>
+            $(document).ready( function () {
+                    $('#ContactUsTable').DataTable({
+                        "processing": true,
+                        "serverSide" : false,
+                        "filter": true,
+                        "orderMulti": true,
+                        "ajax": {
+                            "url": "/ContactUs/GetAllContactUS",
+                            "type" : "POST",
+                            "datatype": "json",
+                        },
+                        "columns": [
+                            {"data": "Name","autoWidth" : true},
+                            {"data": "Email", "autoWidth" : true},
+                            {"data": "Messsage", "autoWidth" : true},
+                        ],
+    
+                    });
+                } );
+        </script>
+}

@@ -19,7 +19,6 @@ namespace FinalProjectWebServer.Models.DomainModels
         [StringLength(50)]
         public string Email { get; set; }
 
-        [Column(TypeName = "TEXT")]
         [Required]
         public string Messsage { get; set; }
     }
