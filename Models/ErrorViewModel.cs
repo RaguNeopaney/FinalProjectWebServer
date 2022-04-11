@@ -1,5 +1,3 @@
-using System;
-
 namespace FinalProjectWebServer.Models
 {
     public class ErrorViewModel

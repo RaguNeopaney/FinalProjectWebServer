@@ -10,11 +10,8 @@ body {
 }
 
 .hero {
-    /*background-image: url("http://purplerockscissors.com/assets/images/home_mud-illy.jpg");*/
-    background-image: url("http://www.meetharis.com/images/polygon.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    /*background-size: contain;*/
     background-size: cover;
     display: flex;
     align-items: center;
@@ -47,7 +44,6 @@ strong {
     position: relative;
     padding: 60px 20px;
     background: transparent;
-    /*background: url("http://newevolutiondesigns.com/images/freebies/polygon-wallpaper-14.jpg");*/
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #61c2ff), color-stop(100%, #cd4444));
     background: -webkit-linear-gradient(-45deg, #61c2ff 0%, #cd4444 100%);
     -webkit-background-clip: text;
@@ -90,52 +86,3 @@ strong {
         background: linear-gradient(135deg, #9389aa 0%, #b5606d 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9389aa', endColorstr='#b5606d',GradientType=1 );
     }
-
-/* ANIMATED MOUSE
-======================================== */
-.mouse-wrap {
-    position: absolute;
-    display: block;
-    bottom: 80px;
-    left: 50%;
-    margin-left: -14px;
-}
-
-.mouse {
-    width: 28px;
-    height: 50px;
-    border: 2px solid #999;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-}
-
-.scroller {
-    width: 4px;
-    height: 4px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    background: #999;
-    top: 7px;
-    left: 11px;
-    position: relative;
-    -webkit-animation: mousescroll 1s ease-out infinite;
-    -moz-animation: mousescroll 1s ease-out infinite;
-}
-
-@-webkit-keyframes mousescroll {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        opacity: 1;
-        height: 4px;
-    }
-
-    100% {
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-        opacity: 0;
-        height: 10px;
-    }
-}
