@@ -7,37 +7,33 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
     <link rel="stylesheet" href="~/lib/toastr.js/toastr.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/Navbar.css" />
-    <link rel="stylesheet" href="~/css/ContactUs.css" />
-    <link rel="stylesheet" href="~/css/AboutUs.css" />
-    <link rel="stylesheet" href="~/css/RaguPage.css" />
-    <link rel="stylesheet" href="~/css/RaguResume.min.css" />
+
 
 </head>
 <body>
     <header class="header-area overlay">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-		<div class="container" >			
-			<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-				<span class="menu-icon-bar"></span>
-				<span class="menu-icon-bar"></span>
-				<span class="menu-icon-bar"></span>
-			</button>
-			<div id="main-nav" class="collapse navbar-collapse" >
-				<ul class="navbar-nav ml-auto">
-					<li><a href="@Url.Action("Index","Home")" class="nav-item nav-link active"><i class="fa-solid fa-house-chimney"></i> About US</a></li>
-					<li><a href="@Url.Action("Payton","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Payton Turnbow</a></li>
-					<li><a href="@Url.Action("Pruthvi","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Pruthvi Patel</a></li>
-					<li><a href="@Url.Action("Ragu","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Ragu Neopaney</a></li>
-					<li><a href="@Url.Action("Tyler","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Tyler Malovrh</a></li>
-					<li><a href="@Url.Action("Yeati","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Yeati Mishra</a></li>
-					<li><a href="@Url.Action("ContactUSHome","ContactUs")" class="nav-item nav-link"><i class="fa-solid fa-address-book"></i> Contact Us</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-</header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+		    <div class="container" >			
+			    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+				    <span class="menu-icon-bar"></span>
+				    <span class="menu-icon-bar"></span>
+				    <span class="menu-icon-bar"></span>
+			    </button>
+			    <div id="main-nav" class="collapse navbar-collapse" >
+				    <ul class="navbar-nav ml-auto">
+					    <li><a href="@Url.Action("Index","Home")" class="nav-item nav-link active"><i class="fa-solid fa-house-chimney"></i> About US</a></li>
+					    <li><a href="@Url.Action("Payton","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Payton Turnbow</a></li>
+					    <li><a href="@Url.Action("Pruthvi","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Pruthvi Patel</a></li>
+					    <li><a href="@Url.Action("Ragu","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Ragu Neopaney</a></li>
+					    <li><a href="@Url.Action("Tyler","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Tyler Malovrh</a></li>
+					    <li><a href="@Url.Action("Yeati","Developers")" class="nav-item nav-link"><i class="fa-solid fa-person"></i> Yeati Mishra</a></li>
+					    <li><a href="@Url.Action("ContactUSHome","ContactUs")" class="nav-item nav-link"><i class="fa-solid fa-address-book"></i> Contact Us</a></li>
+				    </ul>
+			    </div>
+		    </div>
+	    </nav>
+    </header>
          @RenderBody()
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
