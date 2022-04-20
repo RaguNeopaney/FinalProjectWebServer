@@ -1,0 +1,203 @@
+﻿.clear {
+    clear: both;
+}
+
+#conteneur-id {
+    width: 100%;
+}
+/*MENU*/
+#conteneur-menu {
+}
+
+.menu {
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+}
+
+    .menu ul {
+        width: 100%;
+        margin: auto;
+        padding: 15px 0px;
+    }
+
+    .menu li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        background-color: #DDD;
+        transition: 0.4s;
+        padding: 5px 25px;
+    }
+
+        .menu a:hover {
+            text-decoration: none;
+            color: #999;
+            background-color: #FFF;
+            transition: 0.4s;
+        }
+/*HOME*/
+#conteneur-home {
+    width: 100%;
+    background: url(https://i.stack.imgur.com/yDr7J.jpg) fixed 100% no-repeat;
+    background-size: cover;
+    padding: 159.5px 0px 100px 0px;
+    text-align: center;
+}
+
+.home {
+    width: 100%;
+}
+
+    .home h1 {
+        font-weight: 100;
+        font-size: 50px;
+        color: #EEE;
+        padding: 0px 0px 5px 0px;
+    }
+
+    .home h2 {
+        font-weight: 100;
+        font-size: 30px;
+        color: #DDD;
+        text-transform: uppercase;
+    }
+/*ABOUT*/
+#conteneur-about {
+    padding: 100px 0px;
+}
+
+.about {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.profil-photo {
+    width: 50%;
+    float: left;
+}
+
+    .profil-photo img {
+        width: 90%;
+    }
+
+.profil-text {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+    .profil-text h2 {
+        padding-bottom: 15px;
+        font-size: 25px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    .profil-text p {
+        padding-bottom: 75px;
+        text-align: justify;
+    }
+
+    .profil-text a {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        text-decoration: none;
+        color: black;
+        background-color: #DDD;
+        transition: 0.4s;
+        padding: 5px 25px;
+        border: 1px solid white;
+    }
+
+        .profil-text a:hover {
+            text-decoration: none;
+            color: #999;
+            border: 1px solid #999;
+            background-color: #FFF;
+            transition: 0.4s;
+        }
+/*SKILLS*/
+#conteneur-skills {
+    padding: 100px 0px;
+    background-color: #EEE;
+}
+
+.skills {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.title h2 {
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title p {
+    padding-bottom: 75px;
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+}
+
+.bardiv {
+    width: 100%;
+    margin: auto;
+}
+
+    .bardiv h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+.progressbar {
+    width: 100%;
+    margin: auto;
+    height: 5px;
+    background-color: #AAA;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+    .progressbar span {
+        height: 5px;
+        background-color: #000;
+        z-index: 888;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 90%;
+}
+
+.dotnet {
+    width: 45%;
+}
+
+.java {
+    width: 70%;
+}
+
+.sql {
+    width: 60%;
+}
