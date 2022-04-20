@@ -10,5 +10,9 @@
   {
     "outputFile": "wwwroot/css/RaguResume.css",
     "inputFile": "wwwroot/css/RaguResume.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/TylerResume.css",
+    "inputFile": "wwwroot/css/TylerResume.scss"
   }
 ]
