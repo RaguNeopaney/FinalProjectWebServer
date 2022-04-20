@@ -14,5 +14,9 @@
   {
     "outputFile": "wwwroot/css/TylerResume.css",
     "inputFile": "wwwroot/css/TylerResume.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/TylerRS.css",
+    "inputFile": "wwwroot/css/TylerRS.scss"
   }
 ]

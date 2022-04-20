@@ -13,12 +13,7 @@ $orange: #ffb300;
 $yellow: #fdd835;
 $dark-pink: #ad1457;
 $light-pink: #d81b60;
-
-@charset "UTF-8";
-
-* {
-    outline: none;
-}
+$green: #00FF00;
 
 *,
 *:before,
@@ -41,18 +36,18 @@ $light-pink: #d81b60;
 }
 
 .resume h1 {
-    color: $orange;
+    color: $green;
     margin: 10px 5px;
     font-size: 4em;
 }
 
 .resume h4 {
-    color: $orange;
+    color: $green;
     font-size: 2em;
 }
 
 .resume h3 {
-    color: $orange;
+    color: $green;
     margin: 10px 0;
     font-size: 1.25em;
 }
@@ -91,7 +86,7 @@ $light-pink: #d81b60;
 }
 
 .resume .base .profile {
-    background: $orange;
+    background: $green;
     padding: 30px 15px 40px 15px;
     margin: -30px -15px 45px -15px;
     position: relative;
@@ -166,7 +161,7 @@ $light-pink: #d81b60;
 }
 
 .resume .base .contact div i {
-    color: $orange;
+    color: $green;
     width: 20px;
     height: 20px;
     font-size: 20px;

@@ -1,8 +1,4 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Montserrat");
-* {
-  outline: none;
-}
-
 *,
 *:before,
 *:after {
@@ -24,18 +20,18 @@
 }
 
 .resume h1 {
-  color: #ffb300;
+  color: #00FF00;
   margin: 10px 5px;
   font-size: 4em;
 }
 
 .resume h4 {
-  color: #ffb300;
+  color: #00FF00;
   font-size: 2em;
 }
 
 .resume h3 {
-  color: #ffb300;
+  color: #00FF00;
   margin: 10px 0;
   font-size: 1.25em;
 }
@@ -74,7 +70,7 @@
 }
 
 .resume .base .profile {
-  background: #ffb300;
+  background: #00FF00;
   padding: 30px 15px 40px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -149,7 +145,7 @@
 }
 
 .resume .base .contact div i {
-  color: #ffb300;
+  color: #00FF00;
   width: 20px;
   height: 20px;
   font-size: 20px;
