@@ -12,6 +12,10 @@
     "inputFile": "wwwroot/css/RaguResume.scss"
   },
   {
+    "outputFile": "wwwroot/css/Pruthvi.css",
+    "inputFile": "wwwroot/css/Pruthvi.scss"
+  },
+  {
     "outputFile": "wwwroot/css/TylerResume.css",
     "inputFile": "wwwroot/css/TylerResume.scss"
   },
