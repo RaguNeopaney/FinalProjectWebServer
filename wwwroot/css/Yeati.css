@@ -1,0 +1,141 @@
+﻿
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+
+
+@media (min-width: 768px) {
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+display: block;
+}
+}
+
+
+
+
+
+.body li a{
+font-weight: bold;
+}
+
+
+
+.jumbotron {
+background-image: url('http://orig14.deviantart.net/60e0/f/2014/158/1/a/white_texture_by_heartlesskinq-d7lezsj.png');
+height: 300px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.body h1 {
+font-weight: bold;
+font-family: 'quicksand', sans-serif;
+}
+
+
+
+.body h2 {
+
+font-weight: bold;
+}
+
+
+
+.body p {
+font-size: 17px;
+font-family: 'muli', sans-serif;
+font-weight: 400;
+}
+
+
+
+.body .about-me {
+background-color: #f9f9f9;
+padding-bottom: 30px;
+}
+
+
+
+.body .portfolio {
+background-color: #f9f9f9;
+margin-top: 30px;
+padding-bottom: 30px;
+}
+
+
+
+.body .img {
+margin: 0 auto;
+width: 70%;
+border: 1px solid #000;
+margin-top: 20px;
+}
+
+
+
+.body .shadow {
+box-shadow: 7px 7px 7px #666;
+position: relative;
+transition: all 0.2s;
+top: 0;
+}
+
+
+
+.body .contact {
+background-color: #f9f9f9;
+margin-top: 30px;
+height: 500px;
+}
+
+
+
+.body .contact h1 {
+font-weight: bold;
+}
+
+
+
+.body .contact p {
+font-size: 25px;
+font-family: 'Muli', sans-serif;
+}
+
+
+
+.body ul {
+list-style-type: none;
+text-align:center;
+}
+
+
+
+
+
+.body .link {
+color: black;
+text-decoration: none;
+}
+
+
+
+.body .link:link {
+color: black;
+}
+
+
+
+.body .link:hover {
+color: #7e7e7e;
+text-decoration: none;
+}
+
+
+
+.body .link:active {
+color: #3f3f3f;
+}
