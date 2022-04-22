@@ -1,136 +1,49 @@
 ﻿.headerw {
-    padding: 4em 0;
+    padding: 3.5em 0;
     background-image: linear-gradient(to right,tomato,plum);
     background-size: cover;
     background-repeat: no-repeat;
-    border-top: groove;
+    
     text-align: center;
     
 }
-.name {
+
+
+
+
+.both,.payton {
     font-family: Blippo,fantasy;
-    font-size: 4em;
+    font-size: 4.5em;
     font-weight: bold;
     letter-spacing: 0.5em;
     color: powderblue;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
-    opacity:0;
-    
+    transform: rotateY(150deg);
 }
-.popEffect{
-    display:inline;
-    text-indent:8px;
+.about {
+    font-family: Blippo,fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    color: hotpink;
+    text-align: center;
+    text-decoration: underline;
+}
+.contact {
+    font-family: Blippo,fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    color:hotpink;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3vh;
+}
+
+.contact-section {
+    font-family: Chalkduster,fantasy;
+    color: thistle;
     text-align:center;
-
-}
-    .popEffect span {
-        animation: pop 12.5s linear infinite 0s;
-        -webkit-animation: pop 12.5s linear infinite 0s;
-        opacity: 0;
-        overflow: hidden;
-        position: absolute;
-        font-family: Blippo,fantasy;
-        font-size: 4em;
-        font-weight: bold;
-        letter-spacing: 0.5em;
-        color: powderblue;
-        text-align:center;
-    }
-    .popEffect span:nth-child(2) {
-        animation-delay: 2.5s;
-        
-        -webkit-animation-delay: 2.5s;
-    }
-
-    .popEffect span:nth-child(3) {
-        animation-delay: 5s;
-        
-        -webkit-animation-delay: 5s;
-    }
-
-    .popEffect span:nth-child(4) {
-        animation-delay: 7.5s;
-       
-        -webkit-animation-delay: 7.5s;
-    }
-
-    .popEffect span:nth-child(5) {
-        animation-delay: 10s;
-       
-        -webkit-animation-delay: 10s;
-    }
-
-/*Pop Effect Animation*/
-
-
-@-webkit-keyframes pop {
-    0% {
-        opacity: 0;
-    }
-
-    5% {
-        opacity: 0;
-        -webkit-transform: rotate(0deg) scale(0.50) skew(0deg) translate(0px);
-    }
-
-    10% {
-        opacity: 1;
-        -webkit-transform: translateY(-300px);
-        -webkit-transform: translateX(-200px);
-        -webkit-transform: translateZ(400px);
-    }
-
-    25% {
-        opacity: 1;
-        -webkit-transform: translateY(-300px);
-        -webkit-transform: translateX(-200px);
-        -webkit-transform: translateZ(400px);
-    }
-
-    30% {
-        opacity: 0;
-        -webkit-transform: translateY(-300px);
-        -webkit-transform: translateX(-200px);
-        -webkit-transform: translateZ(400px);
-    }
-
-    80% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-.both {
-    font-family: Blippo,fantasy;
-    font-size: 4.5em;
-    font-weight: bold;
-    letter-spacing: 0.5em;
-    color: powderblue;
-    transform: rotateY(150deg);
-}
-
-
-
-.payton {
-    font-family: Blippo,fantasy;
-    font-size: 4.5em;
-    font-weight: bold;
-    letter-spacing: 0.5em;
-    color: powderblue;
-    transform: rotateY(150deg);
-    text-shadow: 2px 2px 4px #000000;
+    
 }
 
 .introduction-section {
@@ -147,21 +60,63 @@
     margin-top: 5vh;
 }
 .fun {
-    width: 300px;
-    height: 100px;
-    background:lightskyblue;
-    transition: width 1s;
-    text-align:center;
-}
-
-.contact {
+    font-family: Blippo,fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    color: orchid;
     text-align: center;
-    font-size: 1.2em;
-    font-family: 'Bitter', serif;
-    margin-top: 5vh;
+    text-decoration: underline;
 }
 
+ol.list {
+    list-style-type: upper-roman;
+    
+    text-align: left;
+    margin-left: 700px;
+}
+p,li {
+    font-family: Chalkduster,fantasy;
+    
+    color: thistle;
+}
+.meme1 {
+    display: block;
+   
+    float:left;
+}
+.meme2{
+    display:block;
+    float:left;
+}
+.meme3{
+    display:block;
+    float: right;
+}
+.meme4 {
+    display: block;
+   float:right;
+}
 
-
+.github,.twitter,.linkedin {
+    padding: 20px;
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1.5px;
+    margin-top: 3vh;
+    background: thistle;
+    color: ivory;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right,tomato,plum);
+    color: white;
+    text-align: center;
+}
 
  
